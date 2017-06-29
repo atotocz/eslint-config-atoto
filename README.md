@@ -8,7 +8,7 @@ Atoto.cz eslint configuration, uses [airbnb](https://www.npmjs.com/package/eslin
 ## Installation
 
 ```sh
-yarn add --dev eslint-config-atoto prettier
+yarn add --dev eslint-config-atoto eslint prettier
 
-npm install --dev eslint-config-atoto prettier
+npm install --dev eslint-config-atoto eslint prettier
 ```

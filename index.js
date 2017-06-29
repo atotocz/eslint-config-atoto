@@ -1,8 +1,13 @@
 module.exports = {
   root: true,
   parser: 'babel-eslint',
-  extends: ['airbnb', 'prettier'],
-  plugins: ['prettier'],
+  env: {
+    browser: true,
+    jasmine: true, // for jasmine.DEFAULT_TIMEOUT_INTERVAL in jest tests
+    jest: true,
+  },
+  extends: ['airbnb'/*, 'plugin:flowtype/recommended'*/, 'prettier'],
+  plugins: ['prettier'/* , 'flowtype'*/],
   rules: {
     "prettier/prettier": [
       "error",
@@ -14,4 +19,9 @@ module.exports = {
       }
     ],
   },
+  /*settings: {
+    flowtype: {
+      onlyFilesWithFlowAnnotation: true,
+    },
+  },*/
 };

@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 8.1.2
+
+dependencies:
+  override:
+    - yarn install
+
+test:
+  override:
+    - yarn test

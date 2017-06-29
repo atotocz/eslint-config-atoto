@@ -6,8 +6,8 @@ module.exports = {
     jasmine: true, // for jasmine.DEFAULT_TIMEOUT_INTERVAL in jest tests
     jest: true,
   },
-  extends: ['airbnb'/*, 'plugin:flowtype/recommended'*/, 'prettier'],
-  plugins: ['prettier'/* , 'flowtype'*/],
+  extends: ['airbnb', 'plugin:flowtype/recommended', 'prettier'],
+  plugins: ['flowtype', 'prettier'],
   rules: {
     "prettier/prettier": [
       "error",
@@ -19,9 +19,4 @@ module.exports = {
       }
     ],
   },
-  /*settings: {
-    flowtype: {
-      onlyFilesWithFlowAnnotation: true,
-    },
-  },*/
 };

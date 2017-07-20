@@ -1,13 +1,14 @@
 {
   "name": "eslint-config-atoto",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Atoto.cz eslint configuration",
   "main": "index.js",
   "repository": "git@github.com:atotocz/eslint-config-atoto.git",
   "author": "Michal Kvasničák <michal.kvasnicak@atoto.cz>",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "airbnb.js"
   ],
   "dependencies": {
     "babel-eslint": "^7.2.3",

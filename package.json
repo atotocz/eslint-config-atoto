@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atoto",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Atoto.cz eslint configuration",
   "main": "index.js",
   "repository": "git@github.com:atotocz/eslint-config-atoto.git",
@@ -12,11 +12,11 @@
   ],
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb": "^15.1.0",
     "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-flowtype": "^2.35.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.0.1"
   },
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "prettier": "^1.5.2"
+    "prettier": "^1.5.3"
   }
 }
